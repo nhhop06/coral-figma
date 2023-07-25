@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1920px;
+  height: auto;
+}
+.top-main {
+  width: 100%;
+  height: 847px;
+}
+.container {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
+.row {
+  width: 100%;
+  height: auto;
+}
+.header {
+  width: 1320px;
+  height: 113px;
+  margin: auto;
+  margin-top: 30px;
+}
+.top-header {
+  width: 100%;
+  height: 59px;
+  margin-bottom: 30px;
+  border-bottom: #e3e3e3 solid 1px;
+}
+.top-header .slogan-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+}
+.top-header .slogan-logo img {
+  padding: 0px 5px;
+}
+.top-header h1 {
+  color: var(--dark, #000);
+  font-family: AmstelvarAlpha;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button {
+  display: flex;
+  justify-content: end;
+  margin-top: -40px;
+}
+.button p {
+  padding: 0 5px;
+}
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-header p {
+  color: var(--dark, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  /* A */
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}
+
+/* mid-header */
+.mid-header {
+  width: 100%;
+  height: 500px;
+  background-color: bisque;
+  margin-top: 69px;
+}
+.box-left-header {
+  margin-top: 100px;
+}
+.colect-text {
+  font-family: Roboto;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 55px; /* 74.324% */
+  text-transform: capitalize;
+}
+.decrip-text {
+  margin-top: 60px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 55px; /* 183.333% */
+  text-transform: capitalize;
+}
+.shop-now-button button {
+  background: var(--black, #1e2832);
+  margin-top: 50px;
+  color: white;
+  padding: 20px 50px;
+  font-family: Roboto;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.box-right-header img {
+  width: 424px;
+  height: 542px;
+  flex-shrink: 0;
+}
